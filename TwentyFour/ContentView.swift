@@ -18,6 +18,7 @@ struct ContentView: View {
                 .stroke(style:StrokeStyle(lineWidth: 40, lineCap: .butt)).foregroundColor(Color.green)
             //Scale().stroke(style:StrokeStyle(lineWidth: 5, lineCap: .butt)).foregroundColor(Color.red)
             ScaleView()
+            HandView(date:Date())
         }
     }
 }

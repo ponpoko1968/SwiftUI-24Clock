@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312A4FF0A6CE0635047C84C9 /* Pods_TwentyFour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C834AC972998340892D96131 /* Pods_TwentyFour.framework */; };
 		A61109D924A8B13D00327715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61109D824A8B13D00327715 /* AppDelegate.swift */; };
 		A61109DB24A8B13D00327715 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61109DA24A8B13D00327715 /* SceneDelegate.swift */; };
 		A61109DD24A8B13D00327715 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61109DC24A8B13D00327715 /* ContentView.swift */; };
@@ -16,10 +17,12 @@
 		A61109EE24A8B2D100327715 /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61109ED24A8B2D100327715 /* ArcShape.swift */; };
 		A61F2ED424AADA9E00C8A708 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F2ED324AADA9E00C8A708 /* Scale.swift */; };
 		A64D711324A8B8D700FE7E4F /* SectorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64D711224A8B8D700FE7E4F /* SectorShape.swift */; };
+		A67B9D1224AB44FB00FFEB99 /* HandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B9D1124AB44FB00FFEB99 /* HandView.swift */; };
 		A6EB0E5924A9D060008A1863 /* TimeSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB0E5824A9D060008A1863 /* TimeSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A30F7B8E61B65B09C3B18FFA /* Pods-TwentyFour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwentyFour.debug.xcconfig"; path = "Target Support Files/Pods-TwentyFour/Pods-TwentyFour.debug.xcconfig"; sourceTree = "<group>"; };
 		A61109D524A8B13D00327715 /* TwentyFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwentyFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61109D824A8B13D00327715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A61109DA24A8B13D00327715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +35,10 @@
 		A61109ED24A8B2D100327715 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
 		A61F2ED324AADA9E00C8A708 /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
 		A64D711224A8B8D700FE7E4F /* SectorShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorShape.swift; sourceTree = "<group>"; };
+		A67B9D1124AB44FB00FFEB99 /* HandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandView.swift; sourceTree = "<group>"; };
 		A6EB0E5824A9D060008A1863 /* TimeSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlot.swift; sourceTree = "<group>"; };
+		C834AC972998340892D96131 /* Pods_TwentyFour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwentyFour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4333A7A9B3E47EBAC4E31C /* Pods-TwentyFour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwentyFour.release.xcconfig"; path = "Target Support Files/Pods-TwentyFour/Pods-TwentyFour.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,17 +46,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312A4FF0A6CE0635047C84C9 /* Pods_TwentyFour.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39DDDB8B33B9EA0B2C756267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A30F7B8E61B65B09C3B18FFA /* Pods-TwentyFour.debug.xcconfig */,
+				FB4333A7A9B3E47EBAC4E31C /* Pods-TwentyFour.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A61109CC24A8B13D00327715 = {
 			isa = PBXGroup;
 			children = (
 				A61109D724A8B13D00327715 /* TwentyFour */,
 				A61109D624A8B13D00327715 /* Products */,
+				39DDDB8B33B9EA0B2C756267 /* Pods */,
+				CD1D13399B154020EC8B0E65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +96,7 @@
 				A64D711224A8B8D700FE7E4F /* SectorShape.swift */,
 				A6EB0E5824A9D060008A1863 /* TimeSlot.swift */,
 				A61109EC24A8B14B00327715 /* TwentyFour.entitlements */,
+				A67B9D1124AB44FB00FFEB99 /* HandView.swift */,
 			);
 			path = TwentyFour;
 			sourceTree = "<group>";
@@ -89,6 +109,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CD1D13399B154020EC8B0E65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C834AC972998340892D96131 /* Pods_TwentyFour.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A61109E924A8B13F00327715 /* Build configuration list for PBXNativeTarget "TwentyFour" */;
 			buildPhases = (
+				93D03268D8837192EB98F7E9 /* [CP] Check Pods Manifest.lock */,
 				A61109D124A8B13D00327715 /* Sources */,
 				A61109D224A8B13D00327715 /* Frameworks */,
 				A61109D324A8B13D00327715 /* Resources */,
+				C472A87EE950907D4C838B14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,11 +185,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93D03268D8837192EB98F7E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwentyFour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C472A87EE950907D4C838B14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwentyFour/Pods-TwentyFour-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwentyFour/Pods-TwentyFour-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwentyFour/Pods-TwentyFour-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A61109D124A8B13D00327715 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67B9D1224AB44FB00FFEB99 /* HandView.swift in Sources */,
 				A61109D924A8B13D00327715 /* AppDelegate.swift in Sources */,
 				A61109DB24A8B13D00327715 /* SceneDelegate.swift in Sources */,
 				A61109EE24A8B2D100327715 /* ArcShape.swift in Sources */,
@@ -300,6 +373,7 @@
 		};
 		A61109EA24A8B13F00327715 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30F7B8E61B65B09C3B18FFA /* Pods-TwentyFour.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TwentyFour/TwentyFour.entitlements;
@@ -322,6 +396,7 @@
 		};
 		A61109EB24A8B13F00327715 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4333A7A9B3E47EBAC4E31C /* Pods-TwentyFour.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TwentyFour/TwentyFour.entitlements;
