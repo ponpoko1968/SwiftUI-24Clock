@@ -33,6 +33,8 @@ var date: Date
                                       y: center.y + CGFloat(sin(rad)) * radius)
                 path.move(to: center)
                 path.addLine(to: handEnd)
+                path.move(to: center)
+                path.addEllipse(in: CGRect(center: center, size: CGSize(width: 30, height: 30)))
             }
         }
     }
@@ -41,7 +43,11 @@ var date: Date
 struct HandView: View {
     var date: Date
     var body: some View {
-        Hand(date:date).stroke(style: StrokeStyle(lineWidth: 3, lineCap: .butt)).foregroundColor(Color.red)
+        Hand(date:date)
+            .stroke(lineWidth: 3)
+            .foregroundColor(Color.red)
+
+
     }
 }
 
