@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		312A4FF0A6CE0635047C84C9 /* Pods_TwentyFour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C834AC972998340892D96131 /* Pods_TwentyFour.framework */; };
 		A61109D924A8B13D00327715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61109D824A8B13D00327715 /* AppDelegate.swift */; };
 		A61109DB24A8B13D00327715 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61109DA24A8B13D00327715 /* SceneDelegate.swift */; };
 		A61109DD24A8B13D00327715 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61109DC24A8B13D00327715 /* ContentView.swift */; };
@@ -18,11 +17,12 @@
 		A61F2ED424AADA9E00C8A708 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61F2ED324AADA9E00C8A708 /* Scale.swift */; };
 		A64D711324A8B8D700FE7E4F /* SectorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64D711224A8B8D700FE7E4F /* SectorShape.swift */; };
 		A67B9D1224AB44FB00FFEB99 /* HandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B9D1124AB44FB00FFEB99 /* HandView.swift */; };
+		A67B9D3224B19B5D00FFEB99 /* APIKit in Frameworks */ = {isa = PBXBuildFile; productRef = A67B9D3124B19B5D00FFEB99 /* APIKit */; };
+		A67B9D3A24B19B9E00FFEB99 /* SwifterSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A67B9D3924B19B9E00FFEB99 /* SwifterSwift */; };
 		A6EB0E5924A9D060008A1863 /* TimeSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB0E5824A9D060008A1863 /* TimeSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A30F7B8E61B65B09C3B18FFA /* Pods-TwentyFour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwentyFour.debug.xcconfig"; path = "Target Support Files/Pods-TwentyFour/Pods-TwentyFour.debug.xcconfig"; sourceTree = "<group>"; };
 		A61109D524A8B13D00327715 /* TwentyFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwentyFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61109D824A8B13D00327715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A61109DA24A8B13D00327715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,8 +37,6 @@
 		A64D711224A8B8D700FE7E4F /* SectorShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorShape.swift; sourceTree = "<group>"; };
 		A67B9D1124AB44FB00FFEB99 /* HandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandView.swift; sourceTree = "<group>"; };
 		A6EB0E5824A9D060008A1863 /* TimeSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlot.swift; sourceTree = "<group>"; };
-		C834AC972998340892D96131 /* Pods_TwentyFour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwentyFour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB4333A7A9B3E47EBAC4E31C /* Pods-TwentyFour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwentyFour.release.xcconfig"; path = "Target Support Files/Pods-TwentyFour/Pods-TwentyFour.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312A4FF0A6CE0635047C84C9 /* Pods_TwentyFour.framework in Frameworks */,
+				A67B9D3224B19B5D00FFEB99 /* APIKit in Frameworks */,
+				A67B9D3A24B19B9E00FFEB99 /* SwifterSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +55,7 @@
 		39DDDB8B33B9EA0B2C756267 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A30F7B8E61B65B09C3B18FFA /* Pods-TwentyFour.debug.xcconfig */,
-				FB4333A7A9B3E47EBAC4E31C /* Pods-TwentyFour.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,7 +108,6 @@
 		CD1D13399B154020EC8B0E65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C834AC972998340892D96131 /* Pods_TwentyFour.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,17 +119,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A61109E924A8B13F00327715 /* Build configuration list for PBXNativeTarget "TwentyFour" */;
 			buildPhases = (
-				93D03268D8837192EB98F7E9 /* [CP] Check Pods Manifest.lock */,
 				A61109D124A8B13D00327715 /* Sources */,
 				A61109D224A8B13D00327715 /* Frameworks */,
 				A61109D324A8B13D00327715 /* Resources */,
-				C472A87EE950907D4C838B14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A67B9D3824B19B8C00FFEB99 /* PBXTargetDependency */,
+				A67B9D3624B19B8600FFEB99 /* PBXTargetDependency */,
 			);
 			name = TwentyFour;
+			packageProductDependencies = (
+				A67B9D3124B19B5D00FFEB99 /* APIKit */,
+				A67B9D3924B19B9E00FFEB99 /* SwifterSwift */,
+			);
 			productName = TwentyFour;
 			productReference = A61109D524A8B13D00327715 /* TwentyFour.app */;
 			productType = "com.apple.product-type.application";
@@ -163,6 +162,10 @@
 				Base,
 			);
 			mainGroup = A61109CC24A8B13D00327715;
+			packageReferences = (
+				A67B9D2B24B19A6600FFEB99 /* XCRemoteSwiftPackageReference "SwifterSwift" */,
+				A67B9D3024B19B5D00FFEB99 /* XCRemoteSwiftPackageReference "APIKit" */,
+			);
 			productRefGroup = A61109D624A8B13D00327715 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -185,48 +188,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		93D03268D8837192EB98F7E9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TwentyFour-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C472A87EE950907D4C838B14 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TwentyFour/Pods-TwentyFour-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TwentyFour/Pods-TwentyFour-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwentyFour/Pods-TwentyFour-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		A61109D124A8B13D00327715 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -244,6 +205,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A67B9D3624B19B8600FFEB99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = A67B9D3524B19B8600FFEB99 /* APIKit */;
+		};
+		A67B9D3824B19B8C00FFEB99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = A67B9D3724B19B8C00FFEB99 /* SwifterSwift */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A61109E324A8B13F00327715 /* LaunchScreen.storyboard */ = {
@@ -373,7 +345,6 @@
 		};
 		A61109EA24A8B13F00327715 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A30F7B8E61B65B09C3B18FFA /* Pods-TwentyFour.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TwentyFour/TwentyFour.entitlements;
@@ -396,7 +367,6 @@
 		};
 		A61109EB24A8B13F00327715 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB4333A7A9B3E47EBAC4E31C /* Pods-TwentyFour.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TwentyFour/TwentyFour.entitlements;
@@ -439,6 +409,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A67B9D2B24B19A6600FFEB99 /* XCRemoteSwiftPackageReference "SwifterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwifterSwift/SwifterSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+		A67B9D3024B19B5D00FFEB99 /* XCRemoteSwiftPackageReference "APIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ishkawa/APIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A67B9D3124B19B5D00FFEB99 /* APIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A67B9D3024B19B5D00FFEB99 /* XCRemoteSwiftPackageReference "APIKit" */;
+			productName = APIKit;
+		};
+		A67B9D3524B19B8600FFEB99 /* APIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A67B9D3024B19B5D00FFEB99 /* XCRemoteSwiftPackageReference "APIKit" */;
+			productName = APIKit;
+		};
+		A67B9D3724B19B8C00FFEB99 /* SwifterSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A67B9D2B24B19A6600FFEB99 /* XCRemoteSwiftPackageReference "SwifterSwift" */;
+			productName = SwifterSwift;
+		};
+		A67B9D3924B19B9E00FFEB99 /* SwifterSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A67B9D2B24B19A6600FFEB99 /* XCRemoteSwiftPackageReference "SwifterSwift" */;
+			productName = SwifterSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A61109CD24A8B13D00327715 /* Project object */;
 }
